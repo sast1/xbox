@@ -1,0 +1,23 @@
+
+c	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(ˆÜþ’ÿÿÿÿÿ8“¶¹ò÷/
+n
+java:S1104"SMake portada a static final constant or non-public and provide accessors if needed.(Øí…Ëúÿÿÿÿ
+m
+java:S1104"RMake nombre a static final constant or non-public and provide accessors if needed.(¯‰–‚úÿÿÿÿ
+n
+java:S1104	"SMake empresa a static final constant or non-public and provide accessors if needed.(¦¨˜Æùÿÿÿÿ
+m
+java:S1104
+"RMake presio a static final constant or non-public and provide accessors if needed.(®¡£—ýÿÿÿÿ
+j
+java:S1104"MMake j a static final constant or non-public and provide accessors if needed.(ú™Ì›8ÞÏºÎ÷/
+r
+java:S1104"UMake nombreusu a static final constant or non-public and provide accessors if needed.(‰ŸÂÂ8Å¬­ò÷/
+q
+java:S1104"TMake gmailcom a static final constant or non-public and provide accessors if needed.(ôÊãÌ8…Æ´ò÷/
+w
+java:S1104"UMake cedulacom a static final constant or non-public and provide accessors if needed.(»µº«ûÿÿÿÿ8€˜µò÷/
+y
+java:S1104"WMake telefonocom a static final constant or non-public and provide accessors if needed.(Á¿¢þúÿÿÿÿ8«çµò÷/
+s
+java:S1104"QMake costo a static final constant or non-public and provide accessors if needed.(†–×úýÿÿÿÿ8›¬¶ò÷/

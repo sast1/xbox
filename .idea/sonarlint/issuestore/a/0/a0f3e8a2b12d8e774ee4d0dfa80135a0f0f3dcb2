@@ -1,0 +1,14 @@
+
+p	java:S116"[Rename this field "bt_ir_a_registro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬æ¤
+j	java:S116"URename this field "bt_acceder" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬æ¤
+m	java:S116"SRename this field "et_gmail" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şü§ùÿÿÿÿÿ
+s	java:S116"YRename this field "et_ContraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şü§ùÿÿÿÿÿ
+>
+java:S1659"(Declare "bt_acceder" on a separate line.(¬æ¤
+G
+java:S1659",Declare "et_ContraseÃ±a" on a separate line.(Şü§ùÿÿÿÿÿ
+k	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ•İ¹úÿÿÿÿ
+C
+java:S1604$"(Make this anonymous inner class a lambda(ˆ€öûÿÿÿÿ
+=
+java:S1604-"(Make this anonymous inner class a lambda(£±ÛB

@@ -1,0 +1,37 @@
+
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¦œÊ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘üƒê
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ç£¥ıÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÌĞ’“ûÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Õó™üÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œ›š
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ø®Æ‰
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸²×Á
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(À÷«Èøÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÓÃõıÿÿÿÿ
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÆÏşñıÿÿÿÿ
+o	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–Ú¶å
+t	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³¦Òûÿÿÿÿ
+o	java:S115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Šèú³
+o	java:S115$"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ùˆ´
+o	java:S115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£ê»†
+t	java:S115&"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÎÊşÔıÿÿÿÿ
+o	java:S115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ó…‘è
+\
+java:S1126\"AReplace this if-then-else statement by a single return statement.(ûï•¬şÿÿÿÿ
+\
+java:S1126q"AReplace this if-then-else statement by a single return statement.(ûï•¬şÿÿÿÿ
+c	java:S100á"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦®Ï*
+P
+java:S1128".Remove this unused import 'android.view.View'.(Ø½­äşÿÿÿÿ8™Û¤Çø/
+S
+java:S1128	"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8™Û¤Çø/
+^
+java:S11924"HDefine a constant instead of duplicating this literal " text, " 6 times.(³®Æõ
+c
+java:S1192}"HDefine a constant instead of duplicating this literal " WHERE " 4 times.(“±Áüÿÿÿÿ
+j
+java:S1192}"ODefine a constant instead of duplicating this literal "SELECT * FROM " 4 times.(“±Áüÿÿÿÿ
+‡
+java:S1319¿"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".( ¥Õı
+f	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôŸüÅ

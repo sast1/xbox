@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bienvenida">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="LOS MEJORES JUEGOS 2022"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+
+        android:id="@+id/Lienerlayaut"
+        android:layout_width="407dp"
+        android:layout_height="647dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/halo"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/halo" />
+
+
+        <ImageButton
+            android:id="@+id/forzahorizon"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/forzahorizon" />
+
+        <ImageButton
+            android:id="@+id/bioshock2"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bioshock2" />
+
+        <ImageButton
+            android:id="@+id/gta"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/gta" />
+
+        <ImageButton
+            android:id="@+id/fornite"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fornite" />
+
+        <ImageButton
+            android:id="@+id/forminevrafnite"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/minevraf" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/Lienerlayau2"
+        android:layout_width="407dp"
+        android:layout_height="647dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="15dp"
+            android:hint="HALO INFINITE WARCONTER"
+            android:textColorHint="@color/white"
+            app:layout_constraintBottom_toTopOf="@id/Lienerlayaut"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:hint="Xbox Game Studios                            $300.000  "
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estrellas"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="20dp"
+            android:hint="FORZA HORIZON 4"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:hint="Square Enix                                        $300.000  "
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estrellas"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="55dp"
+            android:hint="BIOSHOCK 2"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:hint="Nintendo                                              $300.000"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estrellas"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"
+            android:hint="GRAND THEFT AUTO"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:hint="Rockstar Games                                 $300.000"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estrellas"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"
+            android:hint="FORTNITE"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:hint="Epic Games                                         $300.000 "
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estrellas"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"
+            android:hint="MINECRAFT"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:hint="Ubisoft                                                  $300.000"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estrellas"
+
+            />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

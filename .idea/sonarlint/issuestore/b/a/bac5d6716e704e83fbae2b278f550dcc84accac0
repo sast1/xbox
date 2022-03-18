@@ -1,0 +1,16 @@
+
+k	java:S116"VRename this field "contraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œâ‰‰
+r	java:S116"]Rename this field "segundacontraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œâ‰‰
+l	java:S116"WRename this field "bt_registrar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸×Šº
+X
+java:S1659"BDeclare "gmail" and all following declarations on a separate line.(Œâ‰‰
+9
+java:S1659"#Declare "atras" on a separate line.(¸×Šº
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨Œşÿÿÿÿ
+B
+java:S1125C"'Remove the unnecessary boolean literal.(Ë…èúÿÿÿÿ
+C
+java:S1604-"(Make this anonymous inner class a lambda(íäÿ¤ıÿÿÿÿ
+C
+java:S16046"(Make this anonymous inner class a lambda(ª—ñÚıÿÿÿÿ

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/Verde3.0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/Verde2.0"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE="
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/gamilcomprador2"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="GMAIL="
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cedulacomprador2"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="CEDULA="
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/telefonocomprador2"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="TELEFONO="
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/nombrejj2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:text="JUEGO COMPRADO="
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/costojuego2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:text="PRECIO="
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/listaComponentesmodelo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/nombrecomprador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginStart="70dp"
+            android:text="hola" />
+
+        <TextView
+            android:id="@+id/gamilcomprador"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="5dp"
+            android:text="hola" />
+
+        <TextView
+            android:id="@+id/cedulacomprador"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="5dp"
+            android:text="hola" />
+
+        <TextView
+            android:id="@+id/telefonocomprador"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="5dp"
+            android:text="hola" />
+
+        <TextView
+            android:id="@+id/nombrejj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginStart="135dp"
+            android:layout_marginTop="5dp"
+            android:text="hola" />
+
+        <TextView
+            android:id="@+id/costojuego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:text="hola" />
+
+        <TextView
+            android:id="@+id/raya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="35dp"
+            android:textStyle="bold"
+            android:text="----------------------------------------------->" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_descripcion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_historial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_inicio_de_sesion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_main.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_registro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_ventas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/historial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion2/app/src/main/res/layout/list_element.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/drawable/att.xml" value="0.3828125" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/drawable/carga.xml" value="0.12" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_descripcion.xml" value="0.33" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_historial.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_inicio_de_sesion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_registro.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_ventas.xml" value="0.9" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/drawable/degradado.xml" value="0.22" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_bienvenida.xml" value="0.33" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_descripcion.xml" value="0.5" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_inicio_de_sesion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_ventas.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/activity_ventas_de_los_juegos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/disenoloco.xml" value="0.33" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/elementos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/halo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/list_element.xml" value="0.33" />
+        <entry key="..\:/Users/SEBASTIAN/AndroidStudioProjects/version1/app/src/main/res/layout/movie_item_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_descripcion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_historial.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_historial2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion2/app/src/main/res/layout/activity_ventas.xml" value="0.33" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion2/app/src/main/res/layout/comprasmodelo.xml" value="0.25" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion2/app/src/main/res/layout/list_element.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_descripcion.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_historial.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_inicio_de_sesion.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_registro.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion3/app/src/main/res/layout/activity_ventas.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/vercion3/app/src/main/res/layout/list_element.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/version1/app/src/main/res/layout/activity_descripcion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/version1/app/src/main/res/layout/activity_inicio_de_sesion.xml" value="0.25" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/version1/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/version1/app/src/main/res/layout/activity_registro.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/version1/app/src/main/res/layout/activity_ventas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sebas/AndroidStudioProjects/version1/app/src/main/res/layout/list_element.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Verde"
+    tools:context=".InicioDeSesion">
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="115dp"
+        android:background="@drawable/uu_24"
+        android:backgroundTint="@color/boton3"
+        app:layout_constraintBottom_toTopOf="@id/et_gmail1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_gmail1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:counterTextColor="@color/white"
+        android:maxLength="25"
+        android:textColorHint="@color/white"
+        app:boxBackgroundColor="@color/Verde2.0"
+        app:boxBackgroundMode="outline"
+        app:counterEnabled="true"
+        app:counterMaxLength="25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.449">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@."
+            android:hint=".@gmail.com"
+            android:maxLength="27"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--   AQUI VA UNO-->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_Contraseña1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:counterTextColor="@color/white"
+        android:maxLength="10"
+        android:textColorHint="@color/white"
+        android:digits="0123456789"
+        app:boxBackgroundMode="outline"
+        app:counterEnabled="true"
+        app:counterMaxLength="12"
+        app:boxBackgroundColor="@color/Verde2.0"
+        app:endIconMode="password_toggle"
+        app:hintTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_gmail1"
+        app:layout_constraintVertical_bias="0.0"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_Contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONTRASEÑA"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+            android:inputType="textPassword"
+            android:maxLength="14"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/bt_verificar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/boton3"
+        android:text="ACCEDER"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_Contraseña1"
+        app:layout_constraintVertical_bias="0.05" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/l6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="6dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text="COMPRAR"
+        android:background="@drawable/att"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toEndOf="@id/l6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

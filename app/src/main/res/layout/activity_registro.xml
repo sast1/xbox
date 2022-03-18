@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Verde"
+    tools:context=".Registro">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_nombre1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/Verde2.0"
+        app:counterTextColor="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundMode="outline"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_nombre"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Nombre"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz"
+            android:inputType="text"
+            android:maxLength="12"
+
+
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- AQUI VA 1-->
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_gmail1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterTextColor="@color/white"
+        app:counterEnabled="true"
+        android:textColor="@color/white"
+        app:counterMaxLength="30"
+        android:layout_marginStart="30dp"
+        app:boxBackgroundColor="@color/Verde2.0"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundMode="outline"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_nombre1"
+        app:layout_constraintVertical_bias="0.01">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_gmail"
+            android:maxLength="32"
+            android:textColor="@color/white"
+            android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@."
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=".@gmail"
+            android:inputType="textEmailAddress"
+
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- AQUI VA 1-->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_cedula1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterTextColor="@color/white"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundColor="@color/Verde2.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:digits="0123456789"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/et_gmail1"
+        app:layout_constraintVertical_bias="0.01">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_cedula"
+            android:textColor="@color/white"
+            android:maxLength="17"
+            android:digits="1234567890"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CEDULA"
+            android:inputType="numberDecimal"
+
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- AQUI VA 1-->
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_telefono1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterTextColor="@color/white"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        android:digits="0123456789"
+        android:textColor="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundColor="@color/Verde2.0"
+        app:boxBackgroundMode="outline"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/et_cedula1"
+        app:layout_constraintVertical_bias="0.01">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_telefono"
+            android:textColor="@color/white"
+            android:maxLength="12"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="1234567890"
+            android:hint="NUMERO TELEFONICO"
+            android:inputType="numberDecimal"
+
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- AQUI VA 1-->
+
+        <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_contraseña1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        app:counterTextColor="@color/white"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundColor="@color/Verde2.0"
+        app:boxBackgroundMode="outline"
+        app:endIconMode="password_toggle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_telefono1"
+        app:layout_constraintVertical_bias="0.01">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_contraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+                android:hint="CONTRASEÑA"
+                android:inputType="textPassword"
+                android:maxLength="17"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+
+
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_contraseña3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        app:counterTextColor="@color/white"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="30dp"
+        app:boxBackgroundColor="@color/Verde2.0"
+        app:boxBackgroundMode="outline"
+        app:endIconMode="password_toggle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_contraseña1"
+        app:layout_constraintVertical_bias="0.01">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_contraseña2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONFIRME LA CONTRASEÑA"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+            android:inputType="textPassword"
+            android:maxLength="17"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/bt_registrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/boton1"
+        android:hint="REGISTRAR"
+        android:textColorHint="@color/white"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_contraseña3"
+        app:layout_constraintVertical_bias="0.05"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/l6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="6dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/att"
+        android:text="COMPRAR"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/l6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
